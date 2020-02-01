@@ -170,33 +170,7 @@
                 font-size: 42px;
             }
 
-            &::after {
-                position: absolute;
-                content: "";
-                height: 23px;
-                width: 400px;
-                top: 67px;
-                right: 5px;
-                z-index: -1;
-                background-image: -webkit-linear-gradient(120deg, rgb(80, 90, 221) 0%, rgb(223, 66, 177) 100%);
-                background-image: -ms-linear-gradient(120deg, rgb(80, 90, 221) 0%, rgb(223, 66, 177) 100%);
-
-                @media #{$breakpoint-md} {
-                    top: 40px;
-                    height: 15px;
-                }
-
-                @media #{$breakpoint-xs} {
-                    top: 45px;
-                    height: 20px;
-                    right: 0;
-                    width: 240px;
-                }
-
-                @media #{$breakpoint-xs-landscape} {
-                    top: 20px;
-                }
-            }
+            
         }
 
         h6 {
@@ -204,7 +178,7 @@
             margin-bottom: 50px;
             text-transform: uppercase;
             display: inline-block;
-            background-color: rgba(255, 255, 255, 0.10);
+            //background-color: rgba(255, 255, 255, 0.10);
             padding: 10px 20px;
             font-size: 18px;
 
