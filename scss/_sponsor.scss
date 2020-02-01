@@ -10,6 +10,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
+    background-color: $white;
 
     .single-sponsor {
         border: 1px solid $border-3;
@@ -39,7 +40,7 @@
             img {
                 @include transition-duration(300ms);
                 max-height: 110px;
-                opacity: 0.5;
+                opacity: 1;
 
                 @media #{$breakpoint-lg} {
                     max-height: 90px;

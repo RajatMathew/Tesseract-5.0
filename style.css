@@ -1104,42 +1104,11 @@ input:required {
     font-size: 42px;
   }
 }
-.single-welcome-slide .welcome-text h2::after {
-  position: absolute;
-  content: "";
-  height: 23px;
-  width: 400px;
-  top: 67px;
-  right: 5px;
-  z-index: -1;
-  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
-  background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
-}
-@media only screen and (min-width:768px) and (max-width:991px) {
-  .single-welcome-slide .welcome-text h2::after {
-    top: 40px;
-    height: 15px;
-  }
-}
-@media only screen and (max-width:767px) {
-  .single-welcome-slide .welcome-text h2::after {
-    top: 45px;
-    height: 20px;
-    right: 0;
-    width: 240px;
-  }
-}
-@media only screen and (min-width:480px) and (max-width:767px) {
-  .single-welcome-slide .welcome-text h2::after {
-    top: 20px;
-  }
-}
 .single-welcome-slide .welcome-text h6 {
   color: #ffffff;
   margin-bottom: 50px;
   text-transform: uppercase;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.1);
   padding: 10px 20px;
   font-size: 18px;
 }
@@ -3230,6 +3199,7 @@ input:required {
   position: relative;
   z-index: 1;
   width: 100%;
+  background-color: #ffffff;
 }
 .our-sponsor-area .single-sponsor {
   border: 1px solid #444675;
@@ -3271,7 +3241,7 @@ input:required {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
   max-height: 110px;
-  opacity: 0.5;
+  opacity: 1;
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
   .our-sponsor-area .single-sponsor a img {
